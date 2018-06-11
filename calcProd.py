@@ -1,7 +1,7 @@
 import time 
 def calcProd():
 	product = 1
-	for i in range(1,100000): #循环遍历1 - 99999乘积
+	for i in range(1,100000): #循环遍历1 - 99999的乘积
 		product = product * i
 	return product
 		
