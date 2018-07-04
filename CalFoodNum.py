@@ -6,7 +6,8 @@ allGuests = {'Alice': {'apples':5, 'pretzes':12},
 			
 def totalBrought(guests,item):
 	numBrought = 0
-	for k, v in guests.items():  #遍历guests的键值对,客人名字赋给k,带来的食物赋给v
+	#遍历guests的键值对,客人名字赋给k,带来的食物赋给v
+	for k, v in guests.items():  
 		#如果带来的食物在键中，将值赋到numBrought中，如果不是键，get()方法返回0，添加到numBrouhgt.
 		numBrought = numBrought + v.get(item,0) 
 	return numBrought
