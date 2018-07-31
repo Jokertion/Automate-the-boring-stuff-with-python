@@ -1,3 +1,5 @@
+#！ python3
+# 技能包：random模块randint方法（给范围，取随机整数）
 import random 
 
 message = ['It is certain',
@@ -10,4 +12,4 @@ message = ['It is certain',
 	'Outlook not so good',
 	'Very doubtful']
 
-print (message[random.randint(0,len(message)-1)])   #产生随机数作下标
+print (message[random.randint(0,len(message)-1)])   #产生随机数作下标去索引列表
